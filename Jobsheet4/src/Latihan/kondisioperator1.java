@@ -1,0 +1,13 @@
+//created by 21343058_Muhammad Farel Fahlevi
+
+package Latihan;
+
+public class kondisioperator1 {
+    public static void main(String[] args){
+        int score = 0;
+        char answer = 'a';
+
+        score = (answer == 'b') ? 10 : 0;
+        System.out.println("Score = " + score);
+    }    
+}
